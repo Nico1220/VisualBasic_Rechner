@@ -1,0 +1,12 @@
+C:\Users\43660\OneDrive - HTL Spengergasse\HTL Spengergasse-4.Klasse\Mgin\VisualBasic_Rechner\VisualBasic_Rechner\bin\Debug\VisualBasic_Rechner.exe.config
+C:\Users\43660\OneDrive - HTL Spengergasse\HTL Spengergasse-4.Klasse\Mgin\VisualBasic_Rechner\VisualBasic_Rechner\bin\Debug\VisualBasic_Rechner.exe
+C:\Users\43660\OneDrive - HTL Spengergasse\HTL Spengergasse-4.Klasse\Mgin\VisualBasic_Rechner\VisualBasic_Rechner\bin\Debug\VisualBasic_Rechner.pdb
+C:\Users\43660\OneDrive - HTL Spengergasse\HTL Spengergasse-4.Klasse\Mgin\VisualBasic_Rechner\VisualBasic_Rechner\bin\Debug\VisualBasic_Rechner.xml
+C:\Users\43660\OneDrive - HTL Spengergasse\HTL Spengergasse-4.Klasse\Mgin\VisualBasic_Rechner\VisualBasic_Rechner\obj\Debug\VisualBasic_Rechner.vbprojAssemblyReference.cache
+C:\Users\43660\OneDrive - HTL Spengergasse\HTL Spengergasse-4.Klasse\Mgin\VisualBasic_Rechner\VisualBasic_Rechner\obj\Debug\VisualBasic_Rechner.Form1.resources
+C:\Users\43660\OneDrive - HTL Spengergasse\HTL Spengergasse-4.Klasse\Mgin\VisualBasic_Rechner\VisualBasic_Rechner\obj\Debug\VisualBasic_Rechner.Resources.resources
+C:\Users\43660\OneDrive - HTL Spengergasse\HTL Spengergasse-4.Klasse\Mgin\VisualBasic_Rechner\VisualBasic_Rechner\obj\Debug\VisualBasic_Rechner.vbproj.GenerateResource.cache
+C:\Users\43660\OneDrive - HTL Spengergasse\HTL Spengergasse-4.Klasse\Mgin\VisualBasic_Rechner\VisualBasic_Rechner\obj\Debug\VisualBasic_Rechner.vbproj.CoreCompileInputs.cache
+C:\Users\43660\OneDrive - HTL Spengergasse\HTL Spengergasse-4.Klasse\Mgin\VisualBasic_Rechner\VisualBasic_Rechner\obj\Debug\VisualBasic_Rechner.exe
+C:\Users\43660\OneDrive - HTL Spengergasse\HTL Spengergasse-4.Klasse\Mgin\VisualBasic_Rechner\VisualBasic_Rechner\obj\Debug\VisualBasic_Rechner.xml
+C:\Users\43660\OneDrive - HTL Spengergasse\HTL Spengergasse-4.Klasse\Mgin\VisualBasic_Rechner\VisualBasic_Rechner\obj\Debug\VisualBasic_Rechner.pdb
