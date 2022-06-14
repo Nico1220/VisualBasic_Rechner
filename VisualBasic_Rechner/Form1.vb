@@ -76,10 +76,7 @@
             MGW = 7.45
             SGW = 0.1186
 
-<<<<<<< HEAD
-        End If
 
-=======
         ElseIf (AlterBack = "6 Monate" And RadioMale.Checked) Then
 
             LGR = 0.0959
@@ -466,8 +463,415 @@
             LGW = -1.1482
             MGW = 71.39
             SGW = 0.1591
+            
+'Female Formeln Matej
+        ElseIf (AlterBack = "4 Monate" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 62.3
+            SGR = 0.0404
+            LGW = 0.0417
+            MGW = 6.25
+            SGW = 0.119
 
+
+        ElseIf (AlterBack = "5 Monate" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 64.54
+            SGR = 0.0391
+            LGW = -0.0074
+            MGW = 6.82
+            SGW = 0.1158
+        
+
+        ElseIf (AlterBack = "6 Monate" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 66.48
+            SGR = 0.0379
+            LGW = -0.0549
+            MGW = 7.3
+            SGW = 0.1134
+
+
+        ElseIf (AlterBack = "7 Monate" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 68.19
+            SGR = 0.0369
+            LGW = -0.1013
+            MGW = 7.72
+            SGW = 0.1116
+
+
+        ElseIf (AlterBack = "8 Monate" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 69.73
+            SGR = 0.0361
+            LGW = -0.1469
+            MGW = 8.09
+            SGW = 0.1103
+
+
+        ElseIf (AlterBack = "9 Monate" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 71.16
+            SGR = 0.0355
+            LGW = -0.1904
+            MGW = 8.43
+            SGW = 0.1094
+
+
+        ElseIf (AlterBack = "10 Monate" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 72.53
+            SGR = 0.035
+            LGW = -0.2321
+            MGW = 8.75
+            SGW = 0.1088
+
+
+        ElseIf (AlterBack = "11 Monate" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 73.84
+            SGR = 0.0347
+            LGW = -0.2724
+            MGW = 9.06
+            SGW = 0.1084
+
+
+        ElseIf (AlterBack = "12 Monate" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 75.09
+            SGR = 0.0344
+            LGW = -0.3101
+            MGW = 9.34
+            SGW = 0.1082
+
+
+        ElseIf (AlterBack = "15 Monate" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 78.54
+            SGR = 0.0342
+            LGW = -0.411
+            MGW = 10.1
+            SGW = 0.1083
+
+
+        ElseIf (AlterBack = "18 Monate" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 81.59
+            SGR = 0.0346
+            LGW = -0.4923
+            MGW = 10.76
+            SGW = 0.109
+
+
+        ElseIf (AlterBack = "21 Monate" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 84.28
+            SGR = 0.0351
+            LGW = -0.5556
+            MGW = 11.35
+            SGW = 0.1099
+
+
+        ElseIf (AlterBack = "2 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 86.73
+            SGR = 0.0356
+            LGW = -0.6039
+            MGW = 11.95
+            SGW = 0.111
+
+
+        ElseIf (AlterBack = "2.5 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 91.34
+            SGR = 0.0364
+            LGW = -0.6711
+            MGW = 13.18
+            SGW = 0.1144
+
+
+        ElseIf (AlterBack = "3 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 95.75
+            SGR = 0.0372
+            LGW = -0.7236
+            MGW = 14.42
+            SGW = 0.1189
+
+
+        ElseIf (AlterBack = "3.5 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 99.79
+            SGR = 0.0379
+            LGW = -0.7783
+            MGW = 15.54
+            SGW = 0.1231
+
+
+        ElseIf (AlterBack = "4 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 103.51
+            SGR = 0.0385
+            LGW = -0.8367
+            MGW = 16.6
+            SGW = 0.1273
+
+
+        ElseIf (AlterBack = "4.5 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 107.15
+            SGR = 0.0393
+            LGW = -0.8939
+            MGW = 17.69
+            SGW = 0.1315
+
+
+        ElseIf (AlterBack = "5 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 110.82
+            SGR = 0.0399
+            LGW = -0.9453
+            MGW = 18.84
+            SGW = 0.1358
+
+
+        ElseIf (AlterBack = "5.5 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 114.31
+            SGR = 0.0404
+            LGW = -0.9871
+            MGW = 20.06
+            SGW = 0.1401
+
+
+        ElseIf (AlterBack = "6 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 117.59
+            SGR = 0.0409
+            LGW = -1.0172
+            MGW = 21.35
+            SGW = 0.1448
+
+
+        ElseIf (AlterBack = "6.5 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 120.69
+            SGR = 0.0414
+            LGW = -1.034
+            MGW = 22.7
+            SGW = 0.1503
+
+
+        ElseIf (AlterBack = "7 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 123.65
+            SGR = 0.042
+            LGW = -1.0369
+            MGW = 24.06
+            SGW = 0.1566
+
+
+        ElseIf (AlterBack = "7.5 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 126.56
+            SGR = 0.0427
+            LGW = -1.0259
+            MGW = 25.48
+            SGW = 0.1639
+
+
+        ElseIf (AlterBack = "8 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 129.49
+            SGR = 0.0434
+            LGW = -1.0011
+            MGW = 27.01
+            SGW = 0.1723
+
+
+        ElseIf (AlterBack = "8.5 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 132.4
+            SGR = 0.0442
+            LGW = -0.9637
+            MGW = 28.69
+            SGW = 0.1817
+
+
+        ElseIf (AlterBack = "9 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 135.28
+            SGR = 0.045
+            LGW = -0.915
+            MGW = 30.55
+            SGW = 0.1915
+
+
+        ElseIf (AlterBack = "9.5 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 138.18
+            SGR = 0.0457
+            LGW = -0.8581
+            MGW = 32.57
+            SGW = 0.2014
+
+
+        ElseIf (AlterBack = "10 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 141.18
+            SGR = 0.0462
+            LGW = -0.7974
+            MGW = 34.68
+            SGW = 0.2111
+
+
+        ElseIf (AlterBack = "10.5 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 144.33
+            SGR = 0.0463
+            LGW = -0.7394
+            MGW = 36.92
+            SGW = 0.2192
+
+
+        ElseIf (AlterBack = "11 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 147.65
+            SGR = 0.0461
+            LGW = -0.6929
+            MGW = 39.37
+            SGW = 0.2247
+
+
+        ElseIf (AlterBack = "11.5 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 151.04
+            SGR = 0.0454
+            LGW = -0.6675
+            MGW = 42.05
+            SGW = 0.2258
+
+
+        ElseIf (AlterBack = "12 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 154.31
+            SGR = 0.0443
+            LGW = -0.6719
+            MGW = 44.87
+            SGW = 0.2218
+
+
+        ElseIf (AlterBack = "12.5 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 157.22
+            SGR = 0.043
+            LGW = -0.7108
+            MGW = 47.59
+            SGW = 0.2142
+
+
+        ElseIf (AlterBack = "13 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 159.53
+            SGR = 0.0418
+            LGW = -0.7827
+            MGW = 50.02
+            SGW = 0.2046
+
+
+        ElseIf (AlterBack = "13.5 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 161.33
+            SGR = 0.0409
+            LGW = -0.8798
+            MGW = 52.16
+            SGW = 0.1948
+
+
+        ElseIf (AlterBack = "14 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 162.74
+            SGR = 0.0401
+            LGW = -0.9906
+            MGW = 54.01
+            SGW = 0.1856
+
+
+        ElseIf (AlterBack = "14.5 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 163.81
+            SGR = 0.0395
+            LGW = -1.1027
+            MGW = 55.55
+            SGW = 0.1776
+
+
+        ElseIf (AlterBack = "15 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 164.58
+            SGR = 0.0391
+            LGW = -1.2062
+            MGW = 56.8
+            SGW = 0.1712
+
+
+        ElseIf (AlterBack = "15.5 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 165.09
+            SGR = 0.0389
+            LGW = -1.2946
+            MGW = 57.79
+            SGW = 0.166
+
+
+        ElseIf (AlterBack = "16 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 165.39
+            SGR = 0.0387
+            LGW = -1.3656
+            MGW = 58.53
+            SGW = 0.1622
+        
+
+        ElseIf (AlterBack = "16.5 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 165.5
+            SGR = 0.0387
+            LGW = -1.4208
+            MGW = 59.07
+            SGW = 0.1595
+
+
+        ElseIf (AlterBack = "17 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 165.54
+            SGR = 0.0386
+            LGW = -1.4641
+            MGW = 59.47
+            SGW = 0.1575
+
+
+        ElseIf (AlterBack = "17.5 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 165.65
+            SGR = 0.0386
+            LGW = -1.5008
+            MGW = 59.78
+            SGW = 0.1559
+
+
+        ElseIf (AlterBack = "18 Jahre" And RadioFemale.Checked) Then
+            LGR = 1
+            MGR = 165.77
+            SGR = 0.0385
+            LGW = -1.534
+            MGW = 60.08
+            SGW = 0.1545
+        
         End If
+
+
 >>>>>>> #FormelBenjamin
 
         PerzentilenHight = ((Hight / MGR) / (LGR * SGR) * 100 / 100)
