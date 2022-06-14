@@ -18,7 +18,7 @@
     End Sub
 
     Private Sub Alter_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Alter.SelectedIndexChanged
-        For Each item As Object In Alter.Items
+        For Each item As Object In Alter.SelectedItem
             AlterBack &= CStr(item)
         Next
 
@@ -867,8 +867,11 @@
         PerzentilenHight = (CDbl(Hight)+LGR)
         PGröße.Text = CStr(PerzentilenHight)
         PerzentilenWeight = (Weight * MGW)
-        PGewicht.Text = AlterBack
+        PGewicht.Text = CStr(PerzentilenWeight)
 
+        Hight = Nothing
+        Weight = Nothing
+        AlterBack = Nothing
 
     End Sub
 
