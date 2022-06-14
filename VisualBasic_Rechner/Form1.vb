@@ -1,6 +1,8 @@
 ﻿Public Class Form1
 
-    Public Hight As String, Weight As String, PGrößeinP As String, PGewichtinP As String, Perzentilen As Double
+    Public Hight As String, Weight As String, PGrößeinP As String, PGewichtinP As String, Perzentilen As Double, Alter As Double, 
+    LGR As Double, LGW As Double, MGR As Double, MGW As Double, SGR As Double, SGW As Double
+    
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
@@ -15,7 +17,8 @@
     End Sub
 
     Private Sub Alter_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Alter.SelectedIndexChanged
-
+        Alter = Alter_SelectedIndexChanged
+        
     End Sub
 
     Private Sub HightInCm_TextChanged(sender As Object, e As EventArgs) Handles HightInCm.TextChanged
@@ -27,10 +30,7 @@
         Weight = WeightInKg.Text
         Weight = CDbl(Weight)
     End Sub
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Perzentilen = Weight * Hight
-        PGröße.Text = CStr(Perzentilen)
-    End Sub
+    
 
     Private Sub PGröße_TextChanged(sender As Object, e As EventArgs) Handles PGröße.TextChanged
 
@@ -46,6 +46,14 @@
 
     Private Sub RadioFemale_CheckedChanged(sender As Object, e As EventArgs) Handles RadioFemale.CheckedChanged
 
+    End Sub
+
+    if (Alter = "4 Monate" && RadioMale.CheckedChanged, LGR = 0.1285, MGR = 64.04, SGR = 0.039, LGW = 0.451, MGW = 6.84, SGW = 0.1206) 
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Perzentilen = Weight * Hight
+        PGröße.Text = CStr(Perzentilen)
+        
     End Sub
 
 End Class
