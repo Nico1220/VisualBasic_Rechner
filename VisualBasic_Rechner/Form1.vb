@@ -873,6 +873,30 @@
         Weight = Nothing
         AlterBack = Nothing
 
+        SDSGR = Round((Math.pow((PGrößeinP / MGR), LGR) - 1) / (LGR * SGR) * 100) / 100
+        SDSGW = Round((Math.pow((PGrößeinP / MGW), LGW) - 1) / (LG * SGW) * 100) / 100
+
+        Dim a1 = SDSGR
+        Dim b1 = 1.0 + a1 * (v1 + a1 * (v2 + a1 * (v3 + a1 * (v4 + a1 * (v5 + a1 * v6)))))
+        b1 = Math.pow(b1, 16)
+        b1 = 1.0 / (b1 + b1)
+
+        If (SDSGR >= 0) Then
+            b1 = 1 - b1
+            Dim PerzGR = Round(b1 * 1000) / 10
+        End If
+
+        Dim a2 = SDSGW
+        Dim b2 = 1.0 + a2 * (v1 + a2 * (v2 + a2 * (v3 + a2 * (v4 + a2 * (v5 + a2 * v6)))))
+
+        b2 = Math.pow(b2, 16)
+        b2 = 1.0 / (b2 + b2)
+
+        If (SDSGW >= 0) Then
+            b2 = 1 - b2
+            Dim PerzGW = Round(b2 * 1000) / 10
+        End If
+
     End Sub
 
 End Class
