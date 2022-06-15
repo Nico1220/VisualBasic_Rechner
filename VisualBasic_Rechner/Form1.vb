@@ -1,7 +1,8 @@
 ﻿Public Class Form1
 
     Public Hight As String, Weight As String, PGrößeinP As String, PGewichtinP As String, PerzentilenHight As Double, PerzentilenWeight As Double,
-    AlterBack As String, LGR As Double, LGW As Double, MGR As Double, MGW As Double, SGR As Double, SGW As Double
+    AlterBack As String, LGR As Double, LGW As Double, MGR As Double, MGW As Double, SGR As Double, SGW As Double, PerzGW As Double, PerzGR As Double,
+    SDSGR As Double, SDSGW As Double
 
 
 
@@ -864,26 +865,17 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         
-        PerzentilenHight = (CDbl(Hight)+LGR)
-        PGröße.Text = CStr(PerzentilenHight)
-        PerzentilenWeight = (Weight * MGW)
-        PGewicht.Text = CStr(PerzentilenWeight)
-
-        Hight = Nothing
-        Weight = Nothing
-        AlterBack = Nothing
-
         SDSGR = Round((Math.pow((PGrößeinP / MGR), LGR) - 1) / (LGR * SGR) * 100) / 100
-        SDSGW = Round((Math.pow((PGrößeinP / MGW), LGW) - 1) / (LG * SGW) * 100) / 100
+        SDSGW = Round((Math.pow((PGrößeinP / MGW), LGW) - 1) / (LGW * SGW) * 100) / 100
 
-        Dim a1 = SDSGR
-        Dim b1 = 1.0 + a1 * (v1 + a1 * (v2 + a1 * (v3 + a1 * (v4 + a1 * (v5 + a1 * v6)))))
+        Dim a1 As Double = SDSGR
+        Dim b1 As Double = 1.0 + a1 * (v1 + a1 * (v2 + a1 * (v3 + a1 * (v4 + a1 * (v5 + a1 * v6)))))
         b1 = Math.pow(b1, 16)
         b1 = 1.0 / (b1 + b1)
 
         If (SDSGR >= 0) Then
             b1 = 1 - b1
-            Dim PerzGR = Round(b1 * 1000) / 10
+            PerzGR = Round(b1 * 1000) / 10
         End If
 
         Dim a2 = SDSGW
@@ -894,8 +886,17 @@
 
         If (SDSGW >= 0) Then
             b2 = 1 - b2
-            Dim PerzGW = Round(b2 * 1000) / 10
+            PerzGW = Round(b2 * 1000) / 10
         End If
+
+        PerzentilenHight = PerzGR
+        PGröße.Text = CStr(PerzentilenHight)
+        PerzentilenWeight = PerzGW
+        PGewicht.Text = CStr(PerzentilenWeight)
+
+        Hight = Nothing
+        Weight = Nothing
+        AlterBack = Nothing
 
     End Sub
 
